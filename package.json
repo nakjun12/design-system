@@ -11,7 +11,6 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "eslint-plugin-react-compiler": "^0.0.0-experimental-0998c1e-20240625",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18"
@@ -21,6 +20,7 @@
     "@storybook/addon-essentials": "^8.2.4",
     "@storybook/addon-interactions": "^8.2.4",
     "@storybook/addon-links": "^8.2.4",
+    "eslint-plugin-react-compiler": "^0.0.0-experimental-0998c1e-20240625",
     "@storybook/addon-onboarding": "^8.2.4",
     "@storybook/blocks": "^8.2.4",
     "@storybook/nextjs": "^8.2.5",
