@@ -1,4 +1,3 @@
-import React from 'react';
 import './button.css';
 
 export interface ButtonProps {
@@ -40,6 +39,7 @@ export const Button = ({
       type="button"
       className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
       {...props}
+      onClick={()=>console.log("하이")}
     >
       {label}
       <style jsx>{`
